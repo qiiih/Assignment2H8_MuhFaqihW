@@ -18,7 +18,7 @@ const profileExp = document.getElementById("profile-exp")
 const profileEmail = document.getElementById("profile-email")
 
 function clrForm() {
-    main.remove()
+    main.style.display = "none"
 }
 
 function changeProfile(profile) {
